@@ -1,8 +1,7 @@
 .nav{
-  background-color: red;
+  background-color: #BE3144;
   height: 60px;
   width: 100%;
-  padding:10px;
   position: flex;
   
 }
@@ -10,27 +9,33 @@
   position: relative;
   left: 800px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
   margin-left:2.5em ;
   top: 15px;
+  font-weight:bold ;
 }
 #navbar a:hover{
-  color: white;
+  color: black;
 }
 #welcome-section{
-  background-color: black;
+  background-color: #232325;
   text-align: center;
-  height: 800px;
+  height: 600px;
   position: relative;
-  bottom: 20px;
+  bottom: 50px;
+  width:100%
 }
 #welcome-section h1{
   color:white;
+  position:relative;
+  top:70px;
+  font-size: 70px;
 }
 #welcome-section p{
-  color:red;
+  color:rgb(135, 14, 14);
   font-style: italic; 
-  font-size: 20px;
-
+  font-size: 30px;
+  position:relative;
+  top:50px;
 }
