@@ -18,3 +18,19 @@
 #navbar a:hover{
   color: white;
 }
+#welcome-section{
+  background-color: black;
+  text-align: center;
+  height: 800px;
+  position: relative;
+  bottom: 20px;
+}
+#welcome-section h1{
+  color:white;
+}
+#welcome-section p{
+  color:red;
+  font-style: italic; 
+  font-size: 20px;
+
+}
