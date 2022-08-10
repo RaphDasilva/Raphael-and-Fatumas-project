@@ -1,4 +1,10 @@
+body{
+  background-color: aqua;
+}
+
+
 .nav{
+
   background-color: #BE3144;
   height: 60px;
   width: 100%;
@@ -38,4 +44,61 @@
   font-size: 30px;
   position:relative;
   top:50px;
+}
+
+#projects h2{
+  color: #232325;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+.project-tile{
+  background-color: #232325;
+ width: 300px;
+ color: antiquewhite;
+ text-align: center;
+ cursor: pointer;
+}
+.project-tile h3{
+  padding-bottom: 20px;
+}
+.project-tile h3:hover{
+  color: #BE3144;
+}
+
+.project-tile{
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#links{
+  background-color: #232325;
+  width: 1250px;
+  height: 200px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  justify-items: center;
+  float: left;
+  
+  
+}
+
+#links h2{
+  color: #BE3144;
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#links p{
+color: aliceblue;
+text-align: center;
+
 }
